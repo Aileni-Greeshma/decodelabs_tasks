@@ -1,4 +1,421 @@
 <!DOCTYPE html>
-<html>
-<body>Project 1</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ShopEase EV - India's premium online store for electric scootys, performance parts, smart lithium batteries, and high-quality EV spare parts.">
+    <title>ShopEase EV – Premium Electric Scootys & Spare Parts Store</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo-area">
+                <a href="#" class="logo" id="logo-link">
+                    <span class="logo-icon">⚡</span>
+                    <span class="logo-text">ShopEase <span class="accent-text">EV</span></span>
+                </a>
+            </div>
+            
+            <nav class="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+                    <li><a href="#products" class="nav-link" id="nav-products">Products</a></li>
+                    <li><a href="#categories" class="nav-link" id="nav-categories">Categories</a></li>
+                    <li><a href="#about" class="nav-link" id="nav-about">About</a></li>
+                    <li><a href="#contact" class="nav-link" id="nav-contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="#products" class="btn btn-secondary btn-sm" id="btn-quick-shop">Quick Shop</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="badge" id="hero-badge">Pioneering Eco-Mobility</span>
+                    <h1 class="hero-title" id="main-heading">Shop Smart, Live Better: <span class="gradient-text">Go Electric</span></h1>
+                    <p class="hero-description" id="hero-desc">
+                        Explore the next generation of urban transit. Shop premium electric scootys and certified high-performance spare parts from leading brands like Tunwal, Tiranga Autotech, and Franklin EV. Zero emissions, maximum power.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#products" class="btn btn-primary btn-lg" id="btn-hero-shop">Shop Now</a>
+                        <a href="#about" class="btn btn-outline btn-lg" id="btn-hero-learn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories-section" id="categories">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" id="categories-heading">Browse by Category</h2>
+                    <p class="section-subtitle">Find dedicated replacement parts and top-tier electric vehicles</p>
+                </div>
+                
+                <div class="categories-grid">
+                    <!-- Category 1 -->
+                    <div class="category-card" id="cat-high-speed">
+                        <div class="category-icon">🏍️</div>
+                        <h3 class="category-name">High-Speed Scootys</h3>
+                        <p class="category-desc">RTO approved, highway-ready electric scootys.</p>
+                        <a href="#products" class="category-link">View Models &rarr;</a>
+                    </div>
+                    <!-- Category 2 -->
+                    <div class="category-card" id="cat-low-speed">
+                        <div class="category-icon">🛵</div>
+                        <h3 class="category-name">Eco Commuters</h3>
+                        <p class="category-desc">No license required, perfect for city runs.</p>
+                        <a href="#products" class="category-link">View Models &rarr;</a>
+                    </div>
+                    <!-- Category 3 -->
+                    <div class="category-card" id="cat-batteries">
+                        <div class="category-icon">🔋</div>
+                        <h3 class="category-name">Lithium Batteries</h3>
+                        <p class="category-desc">Smart Li-ion packs with extended lifecycle.</p>
+                        <a href="#products" class="category-link">Shop Batteries &rarr;</a>
+                    </div>
+                    <!-- Category 4 -->
+                    <div class="category-card" id="cat-consoles">
+                        <div class="category-icon">🖥️</div>
+                        <h3 class="category-name">Digital Consoles</h3>
+                        <p class="category-desc">TFT speedometers and smart displays.</p>
+                        <a href="#products" class="category-link">Shop Electronics &rarr;</a>
+                    </div>
+                    <!-- Category 5 -->
+                    <div class="category-card" id="cat-tyres">
+                        <div class="category-icon">⭕</div>
+                        <h3 class="category-name">Performance Tyres</h3>
+                        <p class="category-desc">Tubeless reinforced all-weather EV tyres.</p>
+                        <a href="#products" class="category-link">Shop Tyres &rarr;</a>
+                    </div>
+                    <!-- Category 6 -->
+                    <div class="category-card" id="cat-motors">
+                        <div class="category-icon">⚙️</div>
+                        <h3 class="category-name">Motors & Controllers</h3>
+                        <p class="category-desc">BLDC hub motors and sine-wave speed controllers.</p>
+                        <a href="#products" class="category-link">Shop Spares &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section class="products-section" id="products">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Hot Releases</span>
+                    <h2 class="section-title" id="products-heading">Featured Scootys & Spare Parts</h2>
+                    <p class="section-subtitle">Premium selected inventory backed by manufacturer warranty</p>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Product 1 -->
+                    <article class="product-card" id="prod-storm-zx">
+                        <div class="product-image-wrapper">
+                            <img src="images/scooty_storm_zx.png" alt="Tunwal Storm ZX Electric Scooty in metallic blue" class="product-image">
+                            <span class="product-tag tag-new">New Release</span>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Tunwal Storm ZX</h3>
+                            <div class="product-price">₹55,993</div>
+                            <p class="product-description">
+                                A high-speed city commuter electric scooty with sleek aerodynamic body, digital trip meter, and dual disc brakes.
+                            </p>
+                            <a href="#contact" class="btn btn-primary btn-block" id="btn-buy-storm">Buy Now</a>
+                        </div>
+                    </article>
+
+                    <!-- Product 2 -->
+                    <article class="product-card" id="prod-tiranga-vyom">
+                        <div class="product-image-wrapper">
+                            <img src="images/scooty_tiranga_vyom.jpg" alt="Tiranga Vyom 2.0 Heavy Duty Electric Scooty" class="product-image">
+                            <span class="product-tag tag-hot">Best Seller</span>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Tiranga Vyom 2.0</h3>
+                            <div class="product-price">₹65,000</div>
+                            <p class="product-description">
+                                Robust heavy-duty frame perfect for daily delivery and cargo commute, powered by a high-torque BLDC motor.
+                            </p>
+                            <a href="#contact" class="btn btn-primary btn-block" id="btn-buy-vyom">Buy Now</a>
+                        </div>
+                    </article>
+
+                    <!-- Product 3 -->
+                    <article class="product-card" id="prod-roma-n">
+                        <div class="product-image-wrapper">
+                            <img src="images/scooty_roma_n.png" alt="Tunwal Roma N Retro Styled Premium Scooty" class="product-image">
+                            <span class="product-tag tag-premium">Premium</span>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Tunwal Roma N</h3>
+                            <div class="product-price">₹74,990</div>
+                            <p class="product-description">
+                                Classic retro Italian styling blended with cutting edge battery tech, digital display, and vintage chrome mirrors.
+                            </p>
+                            <a href="#contact" class="btn btn-primary btn-block" id="btn-buy-roma">Buy Now</a>
+                        </div>
+                    </article>
+
+                    <!-- Product 4 -->
+                    <article class="product-card" id="prod-battery-pack">
+                        <div class="product-image-wrapper">
+                            <img src="images/part_battery.png" alt="Smart 72V 30Ah Lithium Ion Battery Pack" class="product-image">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Smart 72V 30Ah Battery</h3>
+                            <div class="product-price">₹24,999</div>
+                            <p class="product-description">
+                                Intelligent Lithium-Ion cell array with active battery monitoring system (BMS), high thermal protection & fireproof shell.
+                            </p>
+                            <a href="#contact" class="btn btn-primary btn-block" id="btn-buy-battery">Buy Now</a>
+                        </div>
+                    </article>
+
+                    <!-- Product 5 -->
+                    <article class="product-card" id="prod-tft-console">
+                        <div class="product-image-wrapper">
+                            <img src="images/part_console.png" alt="TFT Smart Digital Dashboard Speedometer Console" class="product-image">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">TFT Smart Speedometer Console</h3>
+                            <div class="product-price">₹4,499</div>
+                            <p class="product-description">
+                                Multi-function smart instrument console with Bluetooth pairing, navigation overlay, battery diagnostic logs & night-mode.
+                            </p>
+                            <a href="#contact" class="btn btn-primary btn-block" id="btn-buy-console">Buy Now</a>
+                        </div>
+                    </article>
+
+                    <!-- Product 6 -->
+                    <article class="product-card" id="prod-tubeless-tyre">
+                        <div class="product-image-wrapper">
+                            <img src="images/part_tyre.png" alt="10-inch All-Weather EV Tubeless Tyre" class="product-image">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">10" All-Weather Tubeless Tyre</h3>
+                            <div class="product-price">₹1,299</div>
+                            <p class="product-description">
+                                Reinforced steel-belted tubeless tyre engineered specifically for electric vehicles to reduce rolling resistance and grip safely.
+                            </p>
+                            <a href="#contact" class="btn btn-primary btn-block" id="btn-buy-tyre">Buy Now</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Offers Section -->
+        <section class="special-offers" id="offers">
+            <div class="container">
+                <div class="promo-banner">
+                    <div class="promo-content">
+                        <span class="promo-tag">Limited Time Green Initiative</span>
+                        <h2 class="promo-title">Save Up To 15% On Lithium Upgrades</h2>
+                        <p class="promo-description">
+                            Trade in your old lead-acid battery packs today and receive government-backed green subsidies instantly on our smart lithium battery series. Enjoy free installation and a 3-year warranty on all spare part replacements!
+                        </p>
+                        <div class="promo-features">
+                            <div class="feature-item">
+                                <span class="feature-icon">🚚</span>
+                                <span class="feature-text">Free Shipping India-wide</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🛠️</span>
+                                <span class="feature-text">Authorized Fitment Guides</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">💳</span>
+                                <span class="feature-text">Zero Cost EMI Available</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-glow btn-lg" id="btn-promo-claim">Claim Discount Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content">
+                        <span class="badge">Who We Are</span>
+                        <h2 class="about-title" id="about-heading">Accelerating Green Mobility</h2>
+                        <p class="about-text">
+                            At <strong>ShopEase EV</strong>, we are committed to making green transportation accessible, affordable, and hassle-free. We bridge the gap between EV manufacturers and users by providing a unified online marketplace for genuine spare parts, high-quality components, and state-of-the-art electric scootys.
+                        </p>
+                        <p class="about-text">
+                            We work closely with trusted industry pioneers like <strong>Tunwal E-Motors</strong>, <strong>Tiranga Autotech</strong>, and <strong>Franklin EV</strong> to deliver 100% authentic, certified products. Whether you are seeking a smart replacement battery or upgrading your vehicle's console, we guarantee absolute satisfaction.
+                        </p>
+                        
+                        <div class="stats-row">
+                            <div class="stat-box">
+                                <span class="stat-number">10K+</span>
+                                <span class="stat-label">Happy Riders</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Genuine Spares</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">3 Year</span>
+                                <span class="stat-label">Battery Warranty</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-values">
+                        <div class="value-card">
+                            <h3 class="value-title">🌱 Our Mission</h3>
+                            <p class="value-desc">
+                                To eliminate tailpipe emissions from urban cities by empowering commuter networks with durable, affordable electric vehicles.
+                            </p>
+                        </div>
+                        <div class="value-card">
+                            <h3 class="value-title">🛡️ Customer First</h3>
+                            <p class="value-desc">
+                                Providing certified warranties, direct technician support, and comprehensive documentation to make EV ownership transparent.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Get In Touch</span>
+                    <h2 class="section-title" id="contact-heading">Contact Our EV Experts</h2>
+                    <p class="section-subtitle">Have questions about compatibility, dealership, or pricing? Write to us.</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <div class="info-icon">✉️</div>
+                            <div class="info-details">
+                                <h3 class="info-label">Email Us</h3>
+                                <a href="mailto:support@shopeaseev.com" class="info-link" id="email-contact">support@shopeaseev.com</a>
+                                <p class="info-subtext">Response within 24 hours</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">📞</div>
+                            <div class="info-details">
+                                <h3 class="info-label">Call Support</h3>
+                                <a href="tel:+919876543210" class="info-link" id="phone-contact">+91 98765 43210</a>
+                                <p class="info-subtext">Mon-Sat, 9:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">📍</div>
+                            <div class="info-details">
+                                <h3 class="info-label">Main Headquarters</h3>
+                                <address class="info-address" id="address-contact">
+                                    ShopEase EV Corporate Tower,<br>
+                                    Plot No. 42, Green Energy Park,<br>
+                                    Mumbai, MH - 400001, India
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form (Static Representation) -->
+                    <div class="contact-form-wrapper">
+                        <form action="#" method="POST" class="contact-form" onsubmit="return false;">
+                            <div class="form-group">
+                                <label for="form-name" class="form-label">Full Name</label>
+                                <input type="text" id="form-name" class="form-input" placeholder="John Doe" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="form-email" class="form-label">Email Address</label>
+                                <input type="email" id="form-email" class="form-input" placeholder="john@example.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="form-message" class="form-label">Message / Query Details</label>
+                                <textarea id="form-message" class="form-textarea" rows="4" placeholder="Ask about scooty models, battery pricing, or spare parts compatibility..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block" id="btn-form-submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand-column">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">ShopEase <span class="accent-text">EV</span></span>
+                    </a>
+                    <p class="footer-brand-desc">
+                        Providing top-tier electric two-wheelers and certified spare components across India. Join the green revolution.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="Facebook" id="social-fb">📘</a>
+                        <a href="#" class="social-icon" aria-label="Twitter" id="social-tw">🐦</a>
+                        <a href="#" class="social-icon" aria-label="Instagram" id="social-ig">📸</a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn" id="social-li">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-links-column">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#products" class="footer-link">Featured Products</a></li>
+                        <li><a href="#categories" class="footer-link">Categories</a></li>
+                        <li><a href="#about" class="footer-link">About Company</a></li>
+                        <li><a href="#contact" class="footer-link">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-column">
+                    <h4 class="footer-heading">Our Partners</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="https://www.tunwal.com" target="_blank" rel="noopener" class="footer-link">Tunwal E-Motors</a></li>
+                        <li><a href="#" class="footer-link">Tiranga Autotech</a></li>
+                        <li><a href="#" class="footer-link">Franklin EV</a></li>
+                        <li><a href="#" class="footer-link">Green Energy Association</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright-text" id="footer-copyright">
+                    &copy; 2026 ShopEase EV. All rights reserved. Built for Frontend Development Project 1.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>
